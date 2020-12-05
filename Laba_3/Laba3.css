@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: "Arial";
+    font-size: 18px;
+    color:white;
+}
+header {
+    background-color: green;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+}
+
+aside {
+    background-color: red;
+    color: white;
+    margin: 0;
+    flex-shrink: 1;
+    padding: 10px 30px 0 40px;
+    min-height: calc(100vh - 70px);
+    box-sizing: border-box;
+}
+
+main{
+    color: black;
+    font-family: "Arial";
+    font-size: 18px;
+}
+
+red {
+color: red;
+font-size: 0.6cm;
+}
+
+.osnov_block {
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+}
+#text {
+    text-align: justify;
+    margin: 2em;
+}
+
+#text::selection {
+    background-color: green;
+    color:white;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    width: 150px;
+    padding: 3px;
+    text-decoration: underline;
+    line-height: 1.5em;
+}
+
+li:hover {
+    background-color: green;
+}
+footer {
+    background-color: black;
+   text-align: center;
+   font-size: 16px;
+   padding: 10px;
+}
